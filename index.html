@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="deskripsi" content="web penjualan sederhana">
+    <meta name="Menggunakan" content="HTML,CSS,JAVASCRIPT">
+    <meta name="Pembuat" content="Maman">
+    <title>MAMAN DEWA</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .card-neon{ 
+            border: 3px solid #0dcaf0;
+            box-shadow: 
+            inset 0 0 10px #0dcaf0, /* glow ke dalam */
+            10px 10px 20px #0dcaf0; /* glow ke luar */
+            background-color: black;
+            transition: all 0.3s ease;
+            }
+            .cendol {
+                box-shadow: 0 0;
+                transform: translate(3px 3px);
+                transition: all 200ms ease;
+            }
+        </style>
+</head>
+<body class="full-width-section bg-1">
+    <div class="container border p-0 mb-2 mt-4 rounded-3 bg-2">
+        <div class="d-md-flex justify-content-center p-3">
+            <h1>SKY STORE</h1>
+        <div class="ms-auto my-auto d-md-flex">
+            <ul class="list-inline d-flex justify-content-center">
+                <li class="list-inline-item mx-md-3"><a href="#produk" class="text-decoration-none"><button type="button" class="btn btn-dark d-md-flex">PRODUK</button></a></li>
+                <li class="list-inline-item mx-md-3"><a href="#tentang" class="text-decoration-none"><button type="button" class="btn btn-dark">TENTANG KAMI</button></a></li>
+                <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none"><button type="button" class="btn btn-dark">CARA ORDER</button></a></li>
+            </ul>
+        </div>
+    </div>
+
+<!--BANNER-->
+    <div class="d-md-flex px-4 mb-4">
+        <img src="Img/B1.png" class="w-100 rounded-3">
+    </div>
+
+<!--CATALOGUE-->
+    <h2 id="produk">OUR COLECTION</h2>
+        <p class=" w-50 mx-auto katalog">Selamat Datang di toko kami Sky Store di sini kami menyediakan beberapa koleksi baju kaos brand lokal indonesia dengan kualitas premium 100% cotton</p>
+
+<!--PRODUK-->
+    <div class="row row-cols-md-4 row-cols-10 gx-5 px-5 p-5">
+        <div class="col mb-5">
+            <div class="card card-neon">
+                 <div id="A" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#A" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#A" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/RS1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/RS1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#A" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#A" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+        <div class="card-body">
+            <h3 class="d-none MANDEWA">Baju kaos the premium quality SKY STORE</h3>
+            <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+        </div>
+        <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal <abbr title="Bangga dengan produk lokal" class="text-decoration-none"><i><b>#LOKAL TAK GENTAR</b></i></abbr></p></div>
+            <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+            <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+            </div>
+            </div>
+            </div>  
+        <div class="col mb-5">
+            <div class="card card-neon">
+                 <div id="B" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#B" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#B" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/R1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/R2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#B" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#B" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+            <div class="card-body">
+                <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+            </div>
+            <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                <div class="card-footer d-md-flex">
+                <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+            </div>
+            </div>
+            </div>  
+        <div class="col mb-5">
+            <div class="card card-neon">
+                <div id="C" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#C" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#C" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/P2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/Img/P1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#C" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#C" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+            <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+            </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+            </div>
+            </div>
+            </div>  
+    <div class="col">
+            <div class="card card-neon">
+                 <div id="D" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#D" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#D" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="/Img/RS1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/Img/RS1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#D" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#D" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+                 </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                    <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+                </div>
+                </div>
+            </div>
+    <div class="col">
+            <div class="card card-neon">
+                 <div id="E" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#E" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#E" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/R1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/R2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#E" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#E" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+                 </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                    <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+                </div>
+                </div>
+            </div>
+    <div class="col mb-5">
+            <div class="card card-neon">
+                 <div id="F" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#F" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#F" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/P2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/P1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#F" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#F" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+                 </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                    <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+             </div>
+             </div>
+            </div>
+    <div class="col mb-5">
+            <div class="card card-neon">
+                 <div id="G" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#G" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#G" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/R2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/R1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#G" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#G" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+                 </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                    <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+                </div>
+                </div>
+            </div>
+    <div class="col mb-5">
+            <div class="card card-neon">
+                <div id="H" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#H" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#H" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Img/P1.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Img/P2.png" class="card-img-top">
+                    <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#H" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#H" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+                <div class="card-body">
+                    <h3 class="d-none MANDEWA">Baju Kaos The Premium Quality SKY STORE</h3>
+                    <p class="card-text">Baju Kaos The Premium Quality SKY STORE</p>
+                 </div>
+                 <div class="d-none deskripsi"><p>Baju Dengan Kualitas Premium Brand Lokal Indonesia Cintai Produk Lokal</p></div>
+                 <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-info d-block btnDetail">Detail</a>
+                    <span class="ms-auto fw-bold d-block text-center harga">Rp.100.000</span>
+            </div>
+            </div>
+            </div>
+            </div>
+
+<!--TENTANG KAMI-->
+    <div class="px-5 py-5 bg-3 full-width-section">
+    <div class="mx-auto w-75">
+        <h2 id="tentang">Tentang Kami</h2>
+        <p class="ms-auto">Sky Store adalah sebuah brand lokal yang di dirikan pada tahun 2024 oleh seorang pelajar smk yang tertarik membuat brand baju kaos produk lokal indonesia (Owner Maman Dewa)</p>
+    </div>
+    </div>
+
+<!--Cara Order-->
+    <div class="px-4 py-4 bg-white">
+    <div class="mx-auto w-75">
+      <h2 id="order">Cara Order</h2>
+      <hr>
+      <ul>
+        <li>Klik tombol detail pada produk</li>
+        <li>Klik tombol beli dan akan di arahkan ke whatsaap toko kami</li>
+        <li>Transfer uang melalui rekening ini Bank BCA MAMAN DEWA 6881143299</li>
+        <li>Dan kirim bukti transfer melalui whatsaap toko kami</li>
+        <li>Produk siap di kirimkan kepada pembeli</li>
+      </ul>
+    </div>
+    </div>
+
+<!--COPYRAIGHT-->
+     <div class="text-center bg-4 text-white p-4 border-top rounded-3">&copy; 2024 Maman Dewa</div>
+        </div>
+
+<!--MODAL-->
+        
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xr d-md-flex">
+            <div class="modal-content bg-7">
+                <div class="modal-header">
+                    <h3 class="modal-title modalTittle" id="exampleModalLabel"></h3>
+                    </div>
+                <div class="modal-body bg-5" align="center">
+                    <div class="modalImage col-md-6 col-12"></div><br>
+                    <div class="col-md-10 col-20">
+                        <div class="modalDeskripsi" align="center"></div>
+                        <div class="d-md-flex">
+                    <a href="" target="blank" class="btn btn-sm btn-success btnBeli">BUY</a>
+                    <span class="ms-auto modalHarga d-md-flex">Rp.20.000</span>
+                 </div>
+            </div>
+        </div>
+    <div class="modal-footer bg-6 ">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Bootstrap JS Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--CSS-->
+    <link rel="stylesheet" href="Css/style.css">
+<!--Javascript-->
+    <script src="Javascript/main.js"></script>
+</body>
+</html>

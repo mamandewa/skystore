@@ -1,0 +1,126 @@
+/*UNTUK TOMBOL*/
+h1{
+    color: blue;
+    font-weight: bold;
+    font-family: 'Tahoma' sans-serif;
+    font-size: 50px;
+    text-shadow:whitesmoke 5px 5px;
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 2px;
+     
+}
+
+/*UNTUK PRODUK,TENTANG KAMI,CARA ORDER*/
+h2 {
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: purple 2px 2px;
+}
+
+/*UNTUK PARAGRAF*/
+.katalog {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-text {
+  color:whitesmoke;
+  text-align: justify;
+  font-weight: bold;
+}
+p { 
+  color: whitesmoke;
+  text-align:justify;
+  font-weight: bold;
+  font-size: 10px;
+
+}
+.ms-auto {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+}
+.harga {
+  color: whitesmoke;
+}
+h3 {
+  text-align: center;
+  font-family: TAHOMA;
+  font-style: italic;
+  font-size: 35px;
+  color:gold;
+  text-shadow: black 2px 2px 2px;
+}
+ul {
+   color: black;
+   font-weight: bold;
+   font-family: tahoma;
+}
+/*UNTUK BACKGROUND*/
+.bg-1 {background-image: url(../Img/G1.png);}
+.bg-2 { background-image: url(../Img/back1.png);}
+.bg-3 {background-color:black;}
+.bg-4 {background-color:black;}
+.bg-5 { background-image: url(../Img/back1.png);}
+.bg-6 {background-color:hotpink;}
+.bg-7 {background-color:blueviolet;}
+
+
+/*UNTUK TOMBOL*/
+.btn-dark {
+background-color: gold;
+  color: black;
+  padding: 10x 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px whitesmoke;
+  position: relative;
+  font-weight: bold;
+  font-style: italic;
+}
+.btn-info {
+  background-color:purple;
+  color: gold;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+  position: relative;
+  font-weight: bold;
+}
+.btn-danger {
+  background-color:red;
+  color:black;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px  black;
+  position: relative;
+  font-weight: bolder;
+}
+.btn-success {
+  background-color:green;
+  color:black;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px  black;
+  position: relative;
+  font-weight: bold;
+  justify-content: center;
+}
+img {
+  border-radius: 15px;
+  box-shadow: red 2px 2px 2px;
+}
